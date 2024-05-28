@@ -2,10 +2,9 @@
 
 1. Создайте модульные тесты на классы `Transaction` и `Account` и создайте файл `CMakeLists.txt` для библиотеки *banking* и для запуска тестов.
 
- - Модульный тест на класс `Transaction`: https://github.com/aakx000/lab05/blob/ba65e5f1792794510cf0628c7effba5d48ae252c/tests/test_transaction.cpp
- - Модульный тест на класс `Account`: https://github.com/aakx000/lab05/blob/ba65e5f1792794510cf0628c7effba5d48ae252c/tests/test_account.cpp
- - `CMakeLists.txt`: https://github.com/aakx000/lab05/blob/ba65e5f1792794510cf0628c7effba5d48ae252c/CMakeLists.txt
-
+ - Модульный тест на класс `Transaction`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/tests/test_transaction.cpp
+ - Модульный тест на класс `Account`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/tests/test_account.cpp
+ - `CMakeLists.txt`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/CMakeLists.txt
 В ходе проверки обнаруживается ошибка в исходном коде `Transaction.cpp` (строка 39)
 ```sh
  bool success = Debit(from, sum + fee_); //изначально было Debit(to, sum + fee_)
