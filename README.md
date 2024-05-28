@@ -20,7 +20,7 @@ $ mkdir workflows && cd workflows
 $ touch CI.yml
 ```
 
-- Файл CI.yml: https://github.com/aakx000/lab05/blob/ba65e5f1792794510cf0628c7effba5d48ae252c/.github/workflows/CI.yml
+- Файл CI.yml: https://github.com/MaR1xXx/lab05/blob/341a7bcd9cfbde66f6e9fff5e704efb75b717ee6/.github/workflows/CI.yml
 
 3. Настройте [Coveralls.io](https://coveralls.io/).
 
