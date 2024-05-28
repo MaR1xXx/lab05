@@ -5,7 +5,7 @@
  - Модульный тест на класс `Transaction`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/tests/test_transaction.cpp
  - Модульный тест на класс `Account`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/tests/test_account.cpp
  - `CMakeLists.txt`: https://github.com/MaR1xXx/lab05/blob/f7e696bb7a6fbaa2e0f84f3d9df1656eead07f01/CMakeLists.txt
-В ходе проверки обнаруживается ошибка в исходном коде `Transaction.cpp` (строка 39)
+В ходе проверки обнаруживается ошибка в исходном коде `Transaction.cpp` 
 ```sh
  bool success = Debit(from, sum + fee_); //изначально было Debit(to, sum + fee_)
 ```
