@@ -1,0 +1,6 @@
+[submodule "third-party/gtest"]
+	path = third-party/gtest
+	url = https://github.com/google/googletest
+[submodule "third-party/cov-cmake"]
+	path = third-party/cov-cmake
+	url = https://github.com/JoakimSoderberg/coveralls-cmake
